@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headersecond {
+  display: flex;
+  width: fit-content;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+  padding: 10px;
+  font-weight: 400;
+}
+.headerbutton {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: center;
+  height: 60px;
+  font-size: medium;
+  gap: 100px;
+}
+.maincolor {
+  color: pink;
+}
+.body {
+  display:flex;
+  font-size: medium;
+  font-weight: 400;
+  width: rgb(43, 41, 41);
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
